@@ -16,7 +16,7 @@
 
 # @param A : list of integers
 # @return a list of integers
-def plusOne(A):
+def addOne(A):
     for i in range(len(A)-1,-1,-1):
         if(A[i]==9):
             A[i] = 0
@@ -32,4 +32,4 @@ def plusOne(A):
     return A
 
 A=[9,9,9,9]
-print(plusOne(A))
+print(addOne(A))

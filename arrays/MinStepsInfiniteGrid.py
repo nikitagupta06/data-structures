@@ -11,7 +11,7 @@
 
 
 
-def MinStepsInfiniteGrid(A,B):
+def minStepsInfiniteGrid(A,B):
     steps = 0
     for i in range(len(A)-1):
         n = abs(A[i]-A[i+1])

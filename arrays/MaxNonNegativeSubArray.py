@@ -13,7 +13,7 @@
 
 
 
-def MaxNonNegativeSubArray(A):
+def maxNonNegativeSubArray(A):
     st = 0
     end = 0
     sum = -1 
